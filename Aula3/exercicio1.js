@@ -1,0 +1,13 @@
+const prompt = require ('prompt-sync')();
+let numero1 = prompt("Digite o primeiro número");
+let numero2 = prompt("Digite o segundo número");
+let numero_1 = Number(numero1);
+let numero_2 = Number(numero2);
+let soma = numero_1 + numero_2;
+let subtração = numero_1 - numero_2;
+let multiplicação = numero_1 * numero_2;
+let divisão = numero_1 / numero_2;
+console.log("o resultado da soma é: " + soma );
+console.log(" o resultado da subtração é: " + subtração);
+console.log(" o resultado da multiplicação é: " + multiplicação);
+console.log(" o resultado da divisão é: " + divisão);
