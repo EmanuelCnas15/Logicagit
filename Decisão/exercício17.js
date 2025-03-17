@@ -1,11 +1,11 @@
 const prompt = require('prompt-sync')();
 
 // Recebe as duas notas do aluno
-const nota1 = parseFloat(prompt('Digite a primeira nota: '));
-const nota2 = parseFloat(prompt('Digite a segunda nota: '));
+let nota1 = parseFloat(prompt('Digite a primeira nota: '));
+let nota2 = parseFloat(prompt('Digite a segunda nota: '));
 
 // Calcula a média aritmética
-const media = (nota1 + nota2) / 2;
+let media = (nota1 + nota2) / 2;
 
 // Verifica a situação do aluno de acordo com a média
 if (media >= 7) {
