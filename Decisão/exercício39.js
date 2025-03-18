@@ -1,5 +1,7 @@
 const prompt = require('prompt-sync')();
+
 let letra = prompt('Digite uma letra: ');
+
 switch (letra) {
     case 'a':
     case 'e':

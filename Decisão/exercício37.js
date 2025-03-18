@@ -1,5 +1,7 @@
 const prompt = require('prompt-sync')();
+
 let numero = prompt('Digite um número de 1 a 7: ');
+
 switch (numero) {
     case '1':
         console.log('Domingo');
