@@ -1,4 +1,4 @@
-const prompt = require('prompt-sync')();
+
 let numero = 1;
 let soma = 0;
 while (numero <= 100) {
