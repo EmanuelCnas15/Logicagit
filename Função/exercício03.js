@@ -27,3 +27,4 @@ if (pontos < 1000) {
 }
 
 console.log(`O jogador é classificado como: ${nivel}`);
+console.log(`O jogador é classificado como: ${classificaJogador(pontos)}`);
