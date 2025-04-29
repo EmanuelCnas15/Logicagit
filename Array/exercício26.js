@@ -8,3 +8,4 @@ console.log("Os salários dos funcionários são: ");
 for (let i = 0; i < salario.length; i++) {
     console.log(salario[i]);
 }
+
